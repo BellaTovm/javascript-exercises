@@ -42,11 +42,11 @@ const power = function(a,b) {
 
 //sxala kirac infinit loop a n = 0 
 const factorial = function(n) {
-	if (n===0){
+	if (n=0){
     return 1;
   };
-  let sum =1 ;
-  for (i=n ;i>1 ;i--){
+  let sum =n ;
+  for (i=n-1 ;i>1 ;i--){
      sum = sum*(i);
   }
   return sum;
