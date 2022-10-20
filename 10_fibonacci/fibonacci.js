@@ -12,11 +12,29 @@ return arr[n-1];
 
 
 
-/*const initialValue = 0;
-const sumWithInitial = arr.reduce(
-  (previousValue, currentValue) => previousValue + currentValue,
-  initialValue
-);*/
+/*
+let arr = [1,1]
+function fib (n){
+  let  pIndex = 1;
+  let  cIndex = 1; 
+    let mainIndex = 2; 
+    const arr = [1,1];
+    while(mainIndex<n){
+        let tmp = cIndex; 
+        cIndex =  cIndex + pIndex; 
+        pIndex = tmp;
+        console.log(cIndex,pIndex);
+        arr.push(cIndex);
+        console.log(arr);
+        mainIndex++; 
+    }
+
+    return cIndex;
+
+
+    
+}
+*/
 
 };
 
